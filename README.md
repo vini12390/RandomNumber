@@ -47,6 +47,7 @@ O projeto também inclui um **Docker Compose** para subir o n8n e uma instância
 ```yaml
 
 npm install
+npm run build
 
 ```
 
@@ -54,6 +55,6 @@ npm install
 
 ```yaml
 
-npm run build
+docker-compose up
 
 ```
