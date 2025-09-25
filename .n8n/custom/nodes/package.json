@@ -1,0 +1,18 @@
+{
+    "name": "n8n-nodes-random-number",
+    "version": "1.0.0",
+    "description": "Custom n8n node to generate random numbers",
+    "main": "dist/RandomNumber.node.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "n8n-core": "^1.112.1",
+        "n8n-workflow": "^1.110.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.5.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    }
+}

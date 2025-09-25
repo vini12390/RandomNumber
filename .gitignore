@@ -1,0 +1,15 @@
+.n8n/binaryData/
+
+.n8n/n8nEventLog.log
+.n8n/crash_journal
+
+.n8n/ssh/
+.n8n/config/
+
+.n8n/custom/nodes/node_modules/
+
+
+.git/
+
+
+docker-compose.override.yml
