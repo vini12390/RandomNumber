@@ -58,3 +58,24 @@ npm run build
 docker-compose up
 
 ```
+
+
+## 🔹 Como usar o n8n e testar o Random Number Node
+
+Após subir os serviços com o `docker-compose up`, siga estes passos rápidos:
+
+1. Abra o navegador e acesse o n8n em:  **http://localhost:5678**
+
+2. Na primeira vez, o n8n pedirá para **configurar usuário e senha**. Apenas escolha seus dados e continue.
+
+3. Crie um novo **workflow** clicando em **New Workflow**.
+
+4. No editor, clique em **+** para adicionar um node e selecione o node **Random Number**.
+
+5. Preencha os campos:
+- `Min`: número mínimo
+- `Max`: número máximo
+
+6. Clique em **Execute Node** no canto superior direito.
+
+7. O node irá gerar e mostrar um **número aleatório** dentro do intervalo definido, utilizando a API Random.org.
